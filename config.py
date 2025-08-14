@@ -46,11 +46,11 @@ class Config:
     GENERATION_TIMEOUT_SECONDS = 60
 
     # API Keys for Enhanced Features - Your DeepSeek configuration
-    OPENROUTER_API_KEY = "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"
+    OPENROUTER_API_KEY = "Your Key"
     OPENAI_API_KEY = None  # Not used - using custom endpoint instead
     ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
-    GOOGLE_API_KEY = "AIzaSyA9JEBW5u-xaOJz2gApcpwIwylZZkD09XI"  # Primary Gemini API key
-    GOOGLE_API_KEY_BACKUP = "AIzaSyBl3trSPBEkHNWNqUTxaKI1NiZaHUevtbU"  # Backup Gemini API key
+    GOOGLE_API_KEY = "Your Key"  # Primary Gemini API key
+    GOOGLE_API_KEY_BACKUP = "Your backup Key"  # Backup Gemini API key
 
     # OpenRouter API Settings - Correct endpoint
     OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
