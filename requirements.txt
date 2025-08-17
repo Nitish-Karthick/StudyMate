@@ -1,0 +1,25 @@
+# Core Streamlit and web framework
+streamlit>=1.28.0
+pandas>=1.5.0
+plotly>=5.15.0
+numpy>=1.24.0
+
+# PDF processing
+PyMuPDF>=1.23.0
+reportlab>=4.0.0
+
+# Machine Learning and NLP
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+torch>=2.0.0
+faiss-cpu>=1.7.4
+
+# PDF generation
+reportlab>=4.0.0
+
+# Additional utilities
+requests>=2.31.0
+typing-extensions>=4.7.0
+
+# For environment variables (optional)
+python-dotenv>=1.0.0
